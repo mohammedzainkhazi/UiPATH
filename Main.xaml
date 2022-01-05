@@ -201,7 +201,7 @@
                   </ActivityAction>
                 </ui:ForEach.Body>
               </ui:ForEach>
-              <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" ReplyTo="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" Body="Today's Vaccine Report : Find a CSV File. " DisplayName="Send SMTP Mail Message" Email="[gmail]" EnableSSL="True" From="[gmail]" sap:VirtualizedContainerService.HintSize="512,151" sap2010:WorkflowViewState.IdRef="SendMail_1" IsBodyHtml="False" Name="RootZain" Password="[password]" Port="587" SecureConnection="Auto" Server="smtp.gmail.com" Subject="Vaccine Report Today" To="[toEmail]">
+              <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" ReplyTo="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" Body="Today's Vaccine Report : Find a CSV File. " DisplayName="Send SMTP Mail Message" Email="[gmail]" EnableSSL="True" From="[gmail]" sap:VirtualizedContainerService.HintSize="512,151" sap2010:WorkflowViewState.IdRef="SendMail_1" IsBodyHtml="False" Name="RootZain" Password="[password]" Port="587" SecureConnection="Auto" Server="smtp.gmail.com" Subject="Vaccine Report " To="[toEmail]">
                 <ui:SendMail.Files>
                   <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
                     <InArgument x:TypeArguments="x:String">C:\Users\User\Desktop\Vaccinated.csv</InArgument>
